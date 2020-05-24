@@ -70,8 +70,8 @@ def measure_time_counting(length):
     print("%.2f seconds took counting sorting %s elements" % (end - start, length))
 
 
-measure_time_bubble(100000)
-measure_time_counting(100000)
-measure_time_native(100000)
+measure_time_bubble(10000)
+measure_time_counting(10000)
+measure_time_native(10000)
 
 

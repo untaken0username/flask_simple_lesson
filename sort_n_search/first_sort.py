@@ -1,6 +1,6 @@
 array = [2, 6, 3, 6, 12, 3.12, 3.14, 3]
 
-for i in range(len(array) - 1):
+for i in range(0, len(array) - 1):
     for j in range(len(array) - 1, i, -1):
         condition = array[j] > array[j - 1]
         if condition:
